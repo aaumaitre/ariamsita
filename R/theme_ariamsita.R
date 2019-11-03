@@ -1,4 +1,10 @@
-# A basic theme to make plots more aesthetic
+#' @title Theme Ariamsita
+#'
+#' @description Some basic aesthetics for a minimal ggplot theme
+#' @keywords ggplot, theme
+#' @export
+#' @examples
+#'+theme_ariamsita
 
 theme_ariamsita <- function(...) {
   theme_minimal()+
@@ -11,3 +17,4 @@ theme_ariamsita <- function(...) {
           axis.text.y = element_text(size = 8.5, color = "grey27"),
           plot.caption = element_text(size = 7, color = "grey40"))
 }
+
